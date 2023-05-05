@@ -1,0 +1,48 @@
+#app {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.homeview{
+  font-size: 15px;
+  font-weight: normal;
+  color: rgb(155, 236, 118);
+  margin-bottom: 50px;
+}
+
+.welcome-again{
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(130, 153, 216);
+}
+
+.welcome-finally{
+  font-size: 30px;
+  font-weight: lighter;
+  color: rgb(214, 193, 97);
+}
+
+.homeview-foot {
+    display: flex;
+}
+
+.homeview-foot button {
+    float: center;
+    width: 300px;
+    height: 50px;
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+/* 设置按钮容器的样式 */
+.bottom-style button {
+    /* ... 其他样式 ... */
+    float: center;
+    width: 300px;
+    height: 50px;
+    font-size: 15px;
+  
+    /* 让其距离底部一定的距离（如 20px） */
+    margin-bottom: 20px;
+}
+
+
